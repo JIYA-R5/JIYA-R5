@@ -1,7 +1,3 @@
-## Hi there 👋
-
-<!--
-**JIYA-R5/JIYA-R5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 # 👋 Hi, I'm Jiya Shah
 
 🌱 Beginner in Programming  
