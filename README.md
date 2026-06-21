@@ -27,5 +27,3 @@
 ## 🏆 GitHub Trophies
 ![Trophies](https://github-profile-trophy.vercel.app/?username=JIYA-R5&theme=radical&no-frame=true&row=1&column=7)
 
-![Profile Views](https://komarev.com/ghpvc/?username=JIYA-R5&color=blueviolet)
-
