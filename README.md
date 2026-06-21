@@ -20,3 +20,12 @@
 ## snake contribution 
 ![snake animation](https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/github-contribution-grid-snake.svg)
 
+## 💻 Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JIYA-R5&layout=compact&theme=radical)
+
+
+## 🏆 GitHub Trophies
+![Trophies](https://github-profile-trophy.vercel.app/?username=JIYA-R5&theme=radical&no-frame=true&row=1&column=7)
+
+![Profile Views](https://komarev.com/ghpvc/?username=JIYA-R5&color=blueviolet)
+
