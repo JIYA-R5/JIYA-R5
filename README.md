@@ -9,8 +9,7 @@
 ## 📊 GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=JIYA-R5&show_icons=true&theme=radical)
 
-## monthly streak
-[![Jiya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JIYA-R5&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
 ## 🔥 Streak Stats
 ![Streak](https://streak-stats.demolab.com?user=JIYA-R5&theme=radical)
 
