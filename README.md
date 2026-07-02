@@ -2,7 +2,6 @@
 
 🌱 Beginner in Programming  
 💻 Learning & Exploring
-🚀 Future Developer  
 
 ---
 
