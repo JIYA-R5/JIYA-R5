@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Jiya Shah
 
 🌱 Beginner in Programming  
-💻 Learning C and GitHub  
+💻 Learning & Exploring
 🚀 Future Developer  
 
 ---
