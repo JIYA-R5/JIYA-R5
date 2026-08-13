@@ -4,6 +4,7 @@
 💻 Learning & Exploring
 
 ---
+![Streak](https://github-readme-streak-stats-phi-blue.vercel.app?user=JIYA-R5&theme=radical)
 
 ## 📊 GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=JIYA-R5&show_icons=true&theme=radical)
