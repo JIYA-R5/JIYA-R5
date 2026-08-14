@@ -1,23 +1,21 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=12,15,24,28&height=220&section=header&text=Hi%20there,%20I'm%20Jiya%20Shah%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
+  <h1>👋 Hi, I'm Jiya Shah</h1>
+  <h3>🌱 Beginner in Programming &nbsp;|&nbsp; 💻 Learning & Exploring &nbsp;|&nbsp; 🚀 Building Cool Projects</h3>
 
-<!-- Typing Subtitle -->
-<a href="https://github.com/JIYA-R5?tab=repositories">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F5D4&center=true&vCenter=true&width=600&lines=🌱+Beginner+in+Programming;💻+Learning+%26+Exploring+New+Tech;🚀+Building+Projects+%26+Coding;⭐+Welcome+to+My+GitHub+Profile!" alt="Typing Subtitle" />
-</a>
+  <br/>
 
-<br/><br/>
-
-<!-- Quick Badges -->
-<a href="https://github.com/JIYA-R5?tab=repositories">
-  <img src="https://img.shields.io/badge/📂_Explore_All_Repositories-Click_Here-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Repositories Link" />
-</a>
-<a href="https://github.com/JIYA-R5">
-  <img src="https://img.shields.io/github/followers/JIYA-R5?label=Followers&style=for-the-badge&color=7928CA&logo=github" alt="GitHub Followers" />
-</a>
-<img src="https://api.visitorbadge.io/api/visitors?path=JIYA-R5&countColor=%2300F5D4&labelStyle=upper" alt="Profile Visitors" />
+  <!-- Quick Badges -->
+  <a href="https://github.com/JIYA-R5?tab=repositories">
+    <img src="https://img.shields.io/badge/Welcome_to_My_Profile-👋-7928CA?style=for-the-badge&logoColor=white" alt="Welcome" />
+  </a>
+  <a href="https://github.com/JIYA-R5?tab=repositories">
+    <img src="https://img.shields.io/badge/📂_Explore_All_Repositories-Click_Here-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Repositories Link" />
+  </a>
+  <a href="https://github.com/JIYA-R5">
+    <img src="https://img.shields.io/github/followers/JIYA-R5?label=Followers&style=for-the-badge&color=00F5D4&logo=github" alt="GitHub Followers" />
+  </a>
+  <img src="https://api.visitorbadge.io/api/visitors?path=JIYA-R5&countColor=%2300F5D4&labelStyle=upper" alt="Profile Visitors" />
 
 </div>
 
@@ -77,38 +75,27 @@
 ---
 
 ## 📊 GitHub Analytics & Repository Stats
-<sub><i>⚡ Auto-updated every 30 minutes via GitHub Actions. Click any card to explore all repositories!</i></sub>
+<sub><i>⚡ Auto-updated every 30 minutes. Click any card to explore all repositories!</i></sub>
 
 <div align="center">
-
-<a href="https://github.com/JIYA-R5?tab=repositories">
-  <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/profile-summary-card-output/radical/0-profile-details.svg" alt="Profile Details" width="95%" />
-</a>
-
-<br/><br/>
 
 <table align="center" border="0" width="100%">
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repos Per Language" width="100%" />
+        <img src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repos Per Language" width="100%" />
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most Commit Language" width="100%" />
+        <img src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most Commit Language" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" colspan="2" width="100%">
       <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/profile-summary-card-output/radical/3-stats.svg" alt="Overall Stats" width="100%" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/profile-summary-card-output/radical/4-productive-time.svg" alt="Productive Time" width="100%" />
+        <img src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive Commit Time" width="100%" />
       </a>
     </td>
   </tr>
@@ -123,7 +110,7 @@
 
 <div align="center">
   <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://raw.githubusercontent.com/JIYA-R5/JIYA-R5/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" width="100%" />
+    <img src="./github-contribution-grid-snake-dark.svg" alt="Snake Contribution Grid" width="100%" />
   </a>
 </div>
 
@@ -156,9 +143,5 @@
   <a href="https://github.com/JIYA-R5?tab=repositories">
     <img src="https://img.shields.io/badge/🚀_Check_Out_All_My_Repositories-Click_Here-00F5D4?style=for-the-badge&logo=github&logoColor=black" alt="All Repositories" />
   </a>
-
-  <br/><br/>
-
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=12,15,24,28&height=100&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
