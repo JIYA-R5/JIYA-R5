@@ -74,8 +74,40 @@
 
 ---
 
-## 📊 GitHub Analytics & Repository Stats
-<sub><i>⚡ Auto-updated every 30 minutes. Click any card to explore all repositories!</i></sub>
+## 🔥 GitHub Stats, Commits & Streak
+<sub><i>⚡ Click any card to explore all repositories!</i></sub>
+
+<div align="center">
+
+<table align="center" border="0" width="100%">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/JIYA-R5?tab=repositories">
+        <img src="https://github-stats-extended.vercel.app/api?username=JIYA-R5&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats & Commits" width="100%" />
+      </a>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/JIYA-R5?tab=repositories">
+        <img src="https://streak-stats.demolab.com?user=JIYA-R5&theme=radical&hide_border=true" alt="GitHub Streak Stats" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2" width="100%" valign="top">
+      <br/>
+      <a href="https://github.com/JIYA-R5?tab=repositories">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=JIYA-R5&layout=compact&theme=radical&hide_border=true" alt="Most Used Languages" width="60%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 📊 Repository Analytics & Commit Activity
+<sub><i>⚡ Auto-updated every 30 minutes via GitHub Actions. Click any card to view repositories!</i></sub>
 
 <div align="center">
 
