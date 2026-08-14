@@ -1,28 +1,31 @@
-name: generate animation
+name: Generate Profile Animations and Stats
 
 on:
-  # run automatically every 24 hours
+  # Run automatically every 30 minutes
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "*/30 * * * *" 
   
-  # allows to manually run the job at any time
+  # Allows manual triggering at any time
   workflow_dispatch:
   
-  # run on every push on the main branch
+  # Run on every push to the main branch
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
-      # generates a snake game from a github user contributions graph
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 1. Generate Snake Game SVGs from GitHub contribution graph
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: JIYA-R5
@@ -30,11 +33,27 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # push the content of <build_dir> to the output branch
-      - name: push github-contribution-grid-snake.svg to the output branch
+      # 2. Generate Profile Summary Cards (Stats, Languages, Productive Time)
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.8.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: JIYA-R5
+          THEME_NAME: radical
+
+      # 3. Copy generated summary cards into build directory (dist)
+      - name: Copy Summary Cards to Build Directory
+        run: |
+          mkdir -p dist/profile-summary-card-output
+          cp -r profile-summary-card-output/* dist/profile-summary-card-output/ || true
+
+      # 4. Push generated SVGs to the 'output' branch
+      - name: Push Assets to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
