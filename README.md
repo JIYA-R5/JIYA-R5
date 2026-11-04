@@ -74,33 +74,7 @@
 
 ---
 
-## 🔥 GitHub Stats, Commits & Streak
-<sub><i>⚡ Click any card to explore all repositories!</i></sub>
 
-<div align="center">
-
-<table align="center" border="0" width="100%">
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://github-stats-extended.vercel.app/api?username=JIYA-R5&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats & Commits" width="100%" />
-      </a>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://streak-stats.demolab.com?user=JIYA-R5&theme=radical&hide_border=true" alt="GitHub Streak Stats" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2" width="100%" valign="top">
-      <br/>
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=JIYA-R5&layout=compact&theme=radical&hide_border=true" alt="Most Used Languages" width="60%" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 </div>
 
@@ -133,8 +107,28 @@
   </tr>
 </table>
 
-</div>
+## 🔥 GitHub Stats, Commits & Streak
+<sub><i>⚡ Click any card to explore all repositories!</i></sub>
 
+<div align="center">
+
+<a href="https://github.com/JIYA-R5?tab=repositories">
+  <img src="https://streak-stats.demolab.com/?user=JIYA-R5&background=0A0714&ring=FF4D94&fire=FF9A5A&currStreakNum=FFFFFF&sideNums=FF4D94&currStreakLabel=FF4D94&sideLabels=A9FEF7&dates=8B82B0&border=FF4D94&border_radius=22" width="780" alt="Account Streak"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/JIYA-R5?tab=repositories">
+  <img src="https://streak-stats.demolab.com/?user=JIYA-R5&mode=weekly&background=0A0714&ring=6C8CFF&fire=FF9A5A&currStreakNum=FFFFFF&sideNums=A9FEF7&currStreakLabel=6C8CFF&sideLabels=FF4D94&dates=8B82B0&border=6C8CFF&border_radius=22" width="780" alt="Weekly Streak"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/JIYA-R5?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JIYA-R5&layout=donut&bg_color=0A0714&title_color=FF4D94&text_color=E8E2FF&border_color=FF4D94&border_radius=22" width="780" alt="Language Usage"/>
+</a>
+
+</div>
 ---
 
 ## 🐍 Contribution Snake Eater
