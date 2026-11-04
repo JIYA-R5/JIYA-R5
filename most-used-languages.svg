@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-labelledby="title description">
+  <title id="title">Most-used programming languages</title>
+  <desc id="description">A rotating 3D-style chart of language usage across public repositories. Python is the most-used language at 65.7%.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#100a20"/>
+      <stop offset="1" stop-color="#080715"/>
+    </linearGradient>
+    <radialGradient id="centerGlow">
+      <stop stop-color="#40305d" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#100a20" stop-opacity=".15"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+    .eyebrow { fill: #a79ac7; font-size: 13px; letter-spacing: 2px; }
+    .heading { fill: #f4efff; font-size: 23px; font-weight: 700; }
+    .language { fill: #eee8ff; font-size: 14px; font-weight: 600; }
+    .percentage { fill: #9c91b7; font-size: 12px; }
+    .orbit { transform-origin: 238px 205px; animation: revolve 18s linear infinite; }
+    .ring-motion { transform-origin: 238px 205px; animation: revolve 32s linear infinite; }
+    @keyframes revolve { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .orbit, .ring-motion { animation: none; } }
+  </style>
+  <rect width="900" height="410" rx="26" fill="url(#background)" stroke="#ff4d94" stroke-opacity=".65"/>
+  <circle cx="238" cy="206" r="172" fill="#ff4d94" opacity=".045"/>
+  <text x="44" y="46" class="eyebrow">LIVE REPOSITORY LANGUAGE MIX</text>
+  <text x="44" y="82" class="heading">Most-used languages</text>
+  <ellipse cx="238" cy="226" rx="140" ry="111" fill="#000" opacity=".5" filter="url(#shadow)"/>
+  <ellipse cx="238" cy="205" rx="151" ry="119" fill="none" stroke="#49325d" stroke-opacity=".45" stroke-dasharray="2 8"/>
+  <g class="orbit">
+    <circle cx="389" cy="205" r="7" fill="#35d8b2"/>
+    <circle cx="87" cy="205" r="5" fill="#ff4d94"/>
+    <circle cx="238" cy="86" r="4" fill="#ffba32"/>
+  </g>
+  <g transform="rotate(-90 238 205)">
+    <circle cx="238" cy="205" r="112" fill="none" stroke="#241934" stroke-width="30"/>
+    <g class="ring-motion"><circle cx="238" cy="205" r="112" fill="none" stroke="#4b9fea" stroke-width="30" stroke-linecap="round" stroke-dasharray="462.55 241.16" stroke-dashoffset="-0.00"/><circle cx="238" cy="205" r="112" fill="none" stroke="#3178c6" stroke-width="30" stroke-linecap="round" stroke-dasharray="151.52 552.20" stroke-dashoffset="-462.55"/><circle cx="238" cy="205" r="112" fill="none" stroke="#ff7043" stroke-width="30" stroke-linecap="round" stroke-dasharray="77.95 625.77" stroke-dashoffset="-614.07"/><circle cx="238" cy="205" r="112" fill="none" stroke="#a678ff" stroke-width="30" stroke-linecap="round" stroke-dasharray="6.39 697.32" stroke-dashoffset="-692.02"/><circle cx="238" cy="205" r="112" fill="none" stroke="#f7df1e" stroke-width="30" stroke-linecap="round" stroke-dasharray="2.98 700.74" stroke-dashoffset="-698.41"/><circle cx="238" cy="205" r="112" fill="none" stroke="#ff805c" stroke-width="30" stroke-linecap="round" stroke-dasharray="2.32 701.39" stroke-dashoffset="-701.39"/></g>
+  </g>
+  <circle cx="238" cy="205" r="78" fill="url(#centerGlow)" stroke="#70416d" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="238" cy="205" r="63" fill="none" stroke="#a57ee8" stroke-opacity=".18" stroke-width="1"/>
+  <text x="238" y="190" text-anchor="middle" class="eyebrow">TOP LANGUAGE</text>
+  <text x="238" y="221" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">Python</text>
+  <text x="238" y="248" text-anchor="middle" fill="#ff8abb" font-size="16" font-weight="700">65.7%</text>
+  <path d="M470 116v208" stroke="#493858" stroke-opacity=".7"/>
+  <circle cx="485" cy="156" r="6" fill="#4b9fea"/><text x="501" y="161" class="language">Python</text><text x="501" y="181" class="percentage">65.7%</text><circle cx="675" cy="156" r="6" fill="#3178c6"/><text x="691" y="161" class="language">TypeScript</text><text x="691" y="181" class="percentage">21.5%</text><circle cx="485" cy="222" r="6" fill="#ff7043"/><text x="501" y="227" class="language">HTML</text><text x="501" y="247" class="percentage">11.1%</text><circle cx="675" cy="222" r="6" fill="#a678ff"/><text x="691" y="227" class="language">CSS</text><text x="691" y="247" class="percentage">0.9%</text><circle cx="485" cy="288" r="6" fill="#f7df1e"/><text x="501" y="293" class="language">JavaScript</text><text x="501" y="313" class="percentage">0.4%</text><circle cx="675" cy="288" r="6" fill="#ff805c"/><text x="691" y="293" class="language">Other</text><text x="691" y="313" class="percentage">0.3%</text>
+  <text x="44" y="374" class="percentage">Language totals refresh automatically after repository updates.</text>
+</svg>

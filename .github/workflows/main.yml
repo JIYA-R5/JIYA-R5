@@ -42,11 +42,20 @@ jobs:
           USERNAME: JIYA-R5
           THEME_NAME: radical
 
-      # 3. Commit Snake Animation SVGs to main branch
-      - name: Commit and Push Snake Animation
+      - name: Generate animated most-used languages SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/generate-most-used-languages.py JIYA-R5
+
+      # 4. Commit generated profile SVGs to main branch
+      - name: Commit and Push Generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg || true
-          git commit -m "Update contribution snake animation" || exit 0
-          git push || true
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg most-used-languages.svg
+          if git diff --cached --quiet; then
+            echo "No generated SVG changes to commit."
+            exit 0
+          fi
+          git commit -m "Update profile animations and language stats"
+          git push

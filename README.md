@@ -48,7 +48,7 @@
 <br/><br/>
 
 <a href="https://github.com/JIYA-R5?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JIYA-R5&layout=donut&bg_color=0A0714&title_color=FF4D94&text_color=E8E2FF&border_color=FF4D94&border_radius=22" width="780" alt="Language Usage"/>
+  <img src="./most-used-languages.svg" width="780" alt="Animated chart of most-used programming languages"/>
 </a>
 
 </div>
@@ -74,4 +74,3 @@
 </div>
 
 ---
-
