@@ -27,6 +27,10 @@
 
 </div>
 ---
+## MOST USED LANGUAGE
+<div align="center">
+  <img src="top-langs.svg" width="780" alt="Language Usage"/>
+</div>
 
 ## 🐍 Contribution Snake Eater
 <sub><i>🎮 Interactive contribution grid animation (updates every 30 minutes). Click grid to view all repositories!</i></sub>
