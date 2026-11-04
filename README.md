@@ -78,32 +78,7 @@
 
 ---
 
-## 📊 Repository Analytics & Commit Activity
-<sub><i>⚡ Auto-updated every 30 minutes via GitHub Actions. Click any card to view repositories!</i></sub>
 
-<div align="center">
-
-<table align="center" border="0" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repos Per Language" width="100%" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most Commit Language" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2" width="100%">
-      <a href="https://github.com/JIYA-R5?tab=repositories">
-        <img src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive Commit Time" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 ## 🔥 GitHub Stats, Commits & Streak
 <sub><i>⚡ Click any card to explore all repositories!</i></sub>
