@@ -1,50 +1,6 @@
-<div align="center">
-
-  <h1>👋 Hi, I'm Jiya Shah</h1>
-  <h3>🌱 Beginner in Programming &nbsp;|&nbsp; 💻 Learning & Exploring &nbsp;|&nbsp; 🚀 Building Cool Projects</h3>
-
-  <br/>
-
-  <!-- Quick Badges -->
-  <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://img.shields.io/badge/Welcome_to_My_Profile-👋-7928CA?style=for-the-badge&logoColor=white" alt="Welcome" />
-  </a>
-  <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://img.shields.io/badge/📂_Explore_All_Repositories-Click_Here-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Repositories Link" />
-  </a>
-  <a href="https://github.com/JIYA-R5">
-    <img src="https://img.shields.io/github/followers/JIYA-R5?label=Followers&style=for-the-badge&color=00F5D4&logo=github" alt="GitHub Followers" />
-  </a>
-  <img src="https://api.visitorbadge.io/api/visitors?path=JIYA-R5&countColor=%2300F5D4&labelStyle=upper" alt="Profile Visitors" />
-
-</div>
-
-<br/>
-
----
-
-## 💫 About Me
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 Quick Intro</h3>
-      <ul>
-        <li>🌱 <b>Current Focus:</b> Learning & Exploring core programming concepts.</li>
-        <li>💻 <b>Passionate About:</b> Web development, problem-solving & building cool tools.</li>
-        <li>🎓 <b>Journey:</b> Expanding my knowledge every single day!</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Quick Links & Info</h3>
-      <ul>
-        <li>📁 <b>Repositories:</b> <a href="https://github.com/JIYA-R5?tab=repositories">View All Repositories</a></li>
-        <li>🤝 <b>Open To:</b> Collaborating on beginner & open-source projects.</li>
-        <li>💬 <b>Ask Me About:</b> HTML, CSS, JavaScript & Python basics.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./hero.svg" alt="Hi, I'm Jiya Shah - SY Computer Engineering Student" width="100%" />
+</p>
 
 ---
 
@@ -73,12 +29,6 @@
 </div>
 
 ---
-
-</div>
-
----
-
-
 
 ## 🔥 GitHub Stats, Commits & Streak
 <sub><i>⚡ Click any card to explore all repositories!</i></sub>

@@ -1,0 +1,43 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="70" x2="980" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+
+  <circle cx="1030" cy="110" r="110" fill="#8B5CF6" fill-opacity="0.18"/>
+  <circle cx="1040" cy="290" r="150" fill="#22D3EE" fill-opacity="0.12"/>
+  <circle cx="180" cy="80" r="90" fill="#EC4899" fill-opacity="0.14"/>
+
+  <g opacity="0.7">
+    <path d="M100 325C220 242 295 260 360 284C440 314 545 410 635 410C760 410 785 255 915 240C1014 228 1090 272 1140 320" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="100" y="95" width="440" height="180" rx="26" fill="#0B1120" fill-opacity="0.5" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <rect x="120" y="120" width="180" height="18" rx="9" fill="#C084FC" fill-opacity="0.8"/>
+    <text x="120" y="200" fill="#F8FAFC" font-size="48" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Hi, I'm Jiya Shah</text>
+    <rect x="120" y="220" width="280" height="4" rx="2" fill="url(#accent)"/>
+    <text x="120" y="255" fill="#C7D2FE" font-size="26" font-weight="600" font-family="Segoe UI, Arial, sans-serif">SY Computer Engineering Student</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="820" y="120" width="220" height="145" rx="22" fill="#111827" fill-opacity="0.72" stroke="#67E8F9" stroke-opacity="0.38"/>
+    <text x="850" y="172" fill="#A5F3FC" font-size="18" font-weight="700" font-family="Segoe UI, Arial, sans-serif">CODING • BUILDING • LEARNING</text>
+    <text x="850" y="215" fill="#F8FAFC" font-size="34" font-weight="700" font-family="Segoe UI, Arial, sans-serif">R5</text>
+    <text x="900" y="215" fill="#C4B5FD" font-size="24" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Developer</text>
+  </g>
+</svg>
