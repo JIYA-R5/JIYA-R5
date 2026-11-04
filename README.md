@@ -41,15 +41,4 @@
   </a>
 </div>
 
----
-
-## 📈 Contribution Activity Graph
-
-<div align="center">
-  <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JIYA-R5&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
-  </a>
-</div>
-
----
 
