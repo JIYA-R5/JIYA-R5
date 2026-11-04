@@ -74,8 +74,6 @@
 
 ---
 
-
-
 </div>
 
 ---
@@ -152,22 +150,3 @@
 
 ---
 
-## 🏆 GitHub Achievements & Trophies
-
-<div align="center">
-  <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://github-profile-trophy.vercel.app/?username=JIYA-R5&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" width="100%" />
-  </a>
-</div>
-
-<br/>
-
----
-
-<div align="center">
-
-  <a href="https://github.com/JIYA-R5?tab=repositories">
-    <img src="https://img.shields.io/badge/🚀_Check_Out_All_My_Repositories-Click_Here-00F5D4?style=for-the-badge&logo=github&logoColor=black" alt="All Repositories" />
-  </a>
-
-</div>
