@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460" role="img" aria-labelledby="title description">
+  <title id="title">Jiya Shah's most used programming languages</title>
+  <desc id="description">An animated 3D-style donut chart showing programming language usage across public, non-fork repositories. The values refresh automatically every 30 minutes.</desc>
+  <defs>
+    <radialGradient id="background" cx="48%" cy="42%" r="80%">
+      <stop offset="0%" stop-color="#17102a" />
+      <stop offset="100%" stop-color="#080611" />
+    </radialGradient>
+    <radialGradient id="center-fill">
+      <stop offset="0%" stop-color="#211633" />
+      <stop offset="100%" stop-color="#0e0a19" />
+    </radialGradient>
+    <filter id="soft-shadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="blur" />
+      <feOffset dy="9" result="offset-blur" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.7" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    
+    <linearGradient id="language-gradient-0" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#35d7e8" />
+      <stop offset="100%" stop-color="#1f7d87" />
+    </linearGradient>
+    <linearGradient id="language-gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7568ff" />
+      <stop offset="100%" stop-color="#443c94" />
+    </linearGradient>
+    <linearGradient id="language-gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7148" />
+      <stop offset="100%" stop-color="#94422a" />
+    </linearGradient>
+    <linearGradient id="language-gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d266ff" />
+      <stop offset="100%" stop-color="#7a3b94" />
+    </linearGradient>
+    <linearGradient id="language-gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd34e" />
+      <stop offset="100%" stop-color="#947a2d" />
+    </linearGradient>
+    <linearGradient id="language-gradient-5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8b45" />
+      <stop offset="100%" stop-color="#945128" />
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+    .micro { fill: #9c92c5; font-size: 11px; letter-spacing: 1.8px; }
+    .language-name { fill: #e8e3f5; font-size: 15px; font-weight: 600; }
+    .language-percent { fill: #c9c0e0; font-size: 14px; font-weight: 700; }
+    .ring { animation: shimmer 4s ease-in-out infinite alternate; }
+    .orb { transform-origin: 250px 232px; animation: breathe 3s ease-in-out infinite; }
+    .status-dot { animation: pulse 2s ease-in-out infinite; }
+    .orbit-dot { fill: #ff4f9a; opacity: .7; transform-box: fill-box; transform-origin: center; animation: twinkle 2.4s ease-in-out infinite alternate; }
+    .language-row { animation: rise-in .7s ease-out both; }
+    @keyframes shimmer { to { opacity: .86; } }
+    @keyframes breathe { 50% { transform: scale(1.06); opacity: .75; } }
+    @keyframes pulse { 50% { opacity: .45; } }
+    @keyframes twinkle { to { opacity: .18; transform: scale(.65); } }
+    @keyframes rise-in { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ring, .orb, .status-dot, .orbit-dot, .language-row { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="778" height="458" rx="24" fill="url(#background)" stroke="#ed3e8c" stroke-width="2" />
+  <path d="M22 76H758" stroke="#382447" stroke-width="1" />
+  
+      <circle cx="107" cy="133" r="2.4" class="orbit-dot" style="animation-delay:0s" />
+      <circle cx="385" cy="119" r="2" class="orbit-dot" style="animation-delay:1.1s" />
+      <circle cx="368" cy="343" r="2.8" class="orbit-dot" style="animation-delay:2s" />
+      <circle cx="121" cy="332" r="1.8" class="orbit-dot" style="animation-delay:0.6s" />
+      <circle cx="416" cy="212" r="1.7" class="orbit-dot" style="animation-delay:1.5s" />
+  <text x="30" y="35" class="micro">@JIYA-R5 · CODE UNIVERSE</text>
+  <text x="30" y="61" fill="#f3edff" font-size="18" font-weight="700">MOST USED LANGUAGES</text>
+  <g transform="translate(606 31)">
+    <circle cx="0" cy="0" r="4" fill="#00d6a3" class="status-dot" />
+    <text x="12" y="4" class="micro" font-size="9">AUTO-REFRESH · 30 MIN</text>
+  </g>
+
+  <circle cx="250" cy="241" r="121" fill="none" stroke="#05040c" stroke-width="52" opacity=".72" filter="url(#soft-shadow)" />
+  <circle cx="250" cy="232" r="121" fill="none" stroke="#242037" stroke-width="34" />
+  <g class="ring" transform="rotate(-90 250 232)">
+    
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-0)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="490.60 269.67"
+        stroke-dashoffset="-4.56" />
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-1)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="154.57 605.70"
+        stroke-dashoffset="-504.28" />
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-2)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="75.79 684.47"
+        stroke-dashoffset="-667.63" />
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-3)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="6.22 754.05"
+        stroke-dashoffset="-747.98" />
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-4)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="2.90 757.37"
+        stroke-dashoffset="-754.70" />
+      <circle cx="250" cy="232" r="121" fill="none"
+        stroke="url(#language-gradient-5)" stroke-width="34"
+        stroke-linecap="butt" stroke-dasharray="2.26 758.01"
+        stroke-dashoffset="-757.88" />
+  </g>
+  <circle cx="250" cy="232" r="97" fill="url(#center-fill)" stroke="#352544" stroke-width="1.5" />
+  <circle cx="250" cy="232" r="53" fill="none" stroke="#a42f79" stroke-width="2" opacity=".52" class="orb" />
+  <text x="250" y="219" fill="#9d91bd" font-size="10" text-anchor="middle" letter-spacing="2.4">TOP LANGS</text>
+  <text x="250" y="245" fill="#fff5ff" font-size="17" font-weight="700" text-anchor="middle">BY BYTES</text>
+  <text x="250" y="268" fill="#a69abb" font-size="10" text-anchor="middle">6 CATEGORIES</text>
+
+  <text x="451" y="99" class="micro">LANGUAGE BREAKDOWN</text>
+  
+      <g class="language-row" style="animation-delay:0ms">
+        <circle cx="451" cy="127" r="5" fill="#35d7e8" />
+        <text x="466" y="131" class="language-name">Python</text>
+        <text x="715" y="131" class="language-percent" text-anchor="end">65.7%</text>
+        <rect x="466" y="140" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="140" width="148.5" height="4" rx="2" fill="#35d7e8" />
+      </g>
+      <g class="language-row" style="animation-delay:90ms">
+        <circle cx="451" cy="176" r="5" fill="#7568ff" />
+        <text x="466" y="180" class="language-name">TypeScript</text>
+        <text x="715" y="180" class="language-percent" text-anchor="end">21.5%</text>
+        <rect x="466" y="189" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="189" width="48.7" height="4" rx="2" fill="#7568ff" />
+      </g>
+      <g class="language-row" style="animation-delay:180ms">
+        <circle cx="451" cy="225" r="5" fill="#ff7148" />
+        <text x="466" y="229" class="language-name">HTML</text>
+        <text x="715" y="229" class="language-percent" text-anchor="end">11.1%</text>
+        <rect x="466" y="238" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="238" width="25.0" height="4" rx="2" fill="#ff7148" />
+      </g>
+      <g class="language-row" style="animation-delay:270ms">
+        <circle cx="451" cy="274" r="5" fill="#d266ff" />
+        <text x="466" y="278" class="language-name">CSS</text>
+        <text x="715" y="278" class="language-percent" text-anchor="end">0.9%</text>
+        <rect x="466" y="287" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="287" width="2.1" height="4" rx="2" fill="#d266ff" />
+      </g>
+      <g class="language-row" style="animation-delay:360ms">
+        <circle cx="451" cy="323" r="5" fill="#ffd34e" />
+        <text x="466" y="327" class="language-name">JavaScript</text>
+        <text x="715" y="327" class="language-percent" text-anchor="end">0.4%</text>
+        <rect x="466" y="336" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="336" width="1.0" height="4" rx="2" fill="#ffd34e" />
+      </g>
+      <g class="language-row" style="animation-delay:450ms">
+        <circle cx="451" cy="372" r="5" fill="#ff8b45" />
+        <text x="466" y="376" class="language-name">Other</text>
+        <text x="715" y="376" class="language-percent" text-anchor="end">0.3%</text>
+        <rect x="466" y="385" width="226" height="4" rx="2" fill="#26213a" />
+        <rect x="466" y="385" width="0.7" height="4" rx="2" fill="#ff8b45" />
+      </g>
+  <text x="30" y="434" fill="#756b91" font-size="10">Based on language bytes in public, non-fork repositories</text>
+  <text x="750" y="434" fill="#756b91" font-size="10" text-anchor="end">6 categories · live GitHub data</text>
+</svg>
