@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title description">
+  <title id="title">Ember the Streak Fox</title>
+  <desc id="description">3 public pushes this week; 2 of 7 days active, based on public GitHub push events.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121329"/><stop offset="1" stop-color="#171021"/></linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6c8cff"/><stop offset="1" stop-color="#ff4d94"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="438" height="248" rx="18" fill="url(#background)" stroke="#6c8cff" stroke-width="2"/>
+  <g shape-rendering="crispEdges">
+    <path fill="#ff9a5a" d="M56 39h12v-12h8v12h16v-8h8v16h16v16h8v44h-8v16h-16v12H68v-8H52v-16H40V59h8V47h8z"/>
+    <path fill="#ffcf70" d="M60 55h48v40H60zM52 99h16v16H52zm48 0h16v16h-16z"/>
+    <path fill="#27152c" d="M68 71h8v8h-8zm24 0h8v8h-8zM76 87h16v8H76z"/>
+    <path fill="#ff4d94" d="M76 39h16v8H76z"/>
+    <path fill="#6c8cff" d="M60 123h16v8H60zm32 0h16v8H92z"/>
+    <path fill="#a9fef7" d="M32 63h8v8h-8zm92-16h8v8h-8z"/>
+  </g>
+  <text x="154" y="50" fill="#a9fef7" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">YOUR CODING COMPANION</text>
+  <text x="154" y="81" fill="#f3f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Ember the Streak Fox</text>
+  <text x="154" y="107" fill="#aaa6bd" font-family="Segoe UI,Arial,sans-serif" font-size="13">Your public GitHub activity, updated regularly.</text>
+  <text x="154" y="143" fill="#f3f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">3 public pushes this week</text>
+  <text x="154" y="168" fill="#c7c3d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">2 of 7 days active</text>
+  <rect x="154" y="181" width="280" height="9" rx="5" fill="#29243c"/>
+  <rect x="154" y="181" width="80" height="9" rx="5" fill="url(#progress)"/>
+</svg>

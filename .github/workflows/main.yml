@@ -44,12 +44,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/generate-top-languages.js
 
-      # 3. Commit generated profile animations
+      # 3. Generate a mascot and repository stats from public GitHub activity
+      - name: Generate Streak Buddy and Git stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/generate-streak-buddy.js
+
+      # 4. Commit generated profile animations and stats
       - name: Commit and Push Profile Animations
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg top-languages-3d.svg
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg top-languages-3d.svg streak-buddy.svg git-stats.svg
           if ! git diff --cached --quiet; then
             git commit -m "Update profile animations and language stats"
             git push
