@@ -38,22 +38,13 @@ jobs:
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 2. Generate Profile Summary Cards (Stats, Languages, Productive Time)
-      - name: Generate Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@v0.8.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: JIYA-R5
-          THEME_NAME: radical
-
-      # 3. Generate an animated language chart from GitHub's repository language API
+      # 2. Generate an animated language chart from GitHub's repository language API
       - name: Generate Most Used Languages animation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/generate-top-languages.js
 
-      # 4. Commit generated profile animations and stats
+      # 3. Commit generated profile animations
       - name: Commit and Push Profile Animations
         run: |
           git config user.name "github-actions[bot]"
