@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title description">
   <title id="title">GitHub repository stats</title>
-  <desc id="description">0 total stars, 6 public repositories, a 2-day current streak, 0 forks, and 92 contributions in 2026.</desc>
+  <desc id="description">0 total stars, 6 public repositories, a 0-day current streak, 0 forks, and 92 contributions in 2026.</desc>
   <defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121329"/><stop offset="1" stop-color="#171021"/></linearGradient></defs>
   <rect x="1" y="1" width="438" height="248" rx="18" fill="url(#background)" stroke="#ff4d94" stroke-width="2"/>
   <text x="24" y="34" fill="#ff4d94" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">GitHub Profile Stats</text>
@@ -13,7 +13,7 @@
     <text x="277" y="98" fill="#f3f0ff" font-size="14" font-weight="700" text-anchor="end">6</text>
     <circle cx="31" cy="125" r="5" fill="#a9fef7"/>
     <text x="46" y="129" fill="#a9fef7">Current streak</text>
-    <text x="277" y="129" fill="#f3f0ff" font-size="14" font-weight="700" text-anchor="end">2 days</text>
+    <text x="277" y="129" fill="#f3f0ff" font-size="14" font-weight="700" text-anchor="end">0 days</text>
     <circle cx="31" cy="156" r="5" fill="#6c8cff"/>
     <text x="46" y="160" fill="#a9fef7">Total forks</text>
     <text x="277" y="160" fill="#f3f0ff" font-size="14" font-weight="700" text-anchor="end">0</text>
