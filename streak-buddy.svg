@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title description">
   <title id="title">Ember the Streak Fox</title>
-  <desc id="description">1 public push this week; 1 of 7 days active, based on public GitHub push events.</desc>
+  <desc id="description">Ready for your next push; 0 of 7 days active, based on public GitHub push events.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121329"/><stop offset="1" stop-color="#171021"/></linearGradient>
     <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6c8cff"/><stop offset="1" stop-color="#ff4d94"/></linearGradient>
@@ -17,8 +17,8 @@
   <text x="154" y="50" fill="#a9fef7" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">YOUR CODING COMPANION</text>
   <text x="154" y="81" fill="#f3f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Ember the Streak Fox</text>
   <text x="154" y="107" fill="#aaa6bd" font-family="Segoe UI,Arial,sans-serif" font-size="13">Your public GitHub activity, updated regularly.</text>
-  <text x="154" y="143" fill="#f3f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">1 public push this week</text>
-  <text x="154" y="168" fill="#c7c3d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1 of 7 days active</text>
+  <text x="154" y="143" fill="#f3f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Ready for your next push</text>
+  <text x="154" y="168" fill="#c7c3d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">0 of 7 days active</text>
   <rect x="154" y="181" width="280" height="9" rx="5" fill="#29243c"/>
-  <rect x="154" y="181" width="40" height="9" rx="5" fill="url(#progress)"/>
+  <rect x="154" y="181" width="0" height="9" rx="5" fill="url(#progress)"/>
 </svg>
