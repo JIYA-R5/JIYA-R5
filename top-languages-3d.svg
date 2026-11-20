@@ -84,20 +84,20 @@
     
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-0)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="483.77 276.50"
+        stroke-linecap="butt" stroke-dasharray="483.94 276.32"
         stroke-dashoffset="-4.56" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-1)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="154.50 605.76"
-        stroke-dashoffset="-497.45" />
+        stroke-linecap="butt" stroke-dasharray="154.29 605.98"
+        stroke-dashoffset="-497.63" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-2)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="79.62 680.65"
-        stroke-dashoffset="-660.94" />
+        stroke-linecap="butt" stroke-dasharray="79.65 680.62"
+        stroke-dashoffset="-660.90" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-3)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="8.71 751.55"
-        stroke-dashoffset="-745.47" />
+        stroke-linecap="butt" stroke-dasharray="8.72 751.55"
+        stroke-dashoffset="-745.46" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-4)" stroke-width="34"
         stroke-linecap="butt" stroke-dasharray="2.83 757.43"
@@ -118,9 +118,9 @@
       <g class="language-row" style="animation-delay:0ms">
         <circle cx="451" cy="127" r="5" fill="#35d7e8" />
         <text x="466" y="131" class="language-name">Python</text>
-        <text x="715" y="131" class="language-percent" text-anchor="end">64.8%</text>
+        <text x="715" y="131" class="language-percent" text-anchor="end">64.9%</text>
         <rect x="466" y="140" width="226" height="4" rx="2" fill="#26213a" />
-        <rect x="466" y="140" width="146.5" height="4" rx="2" fill="#35d7e8" />
+        <rect x="466" y="140" width="146.6" height="4" rx="2" fill="#35d7e8" />
       </g>
       <g class="language-row" style="animation-delay:90ms">
         <circle cx="451" cy="176" r="5" fill="#7568ff" />
