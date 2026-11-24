@@ -84,28 +84,28 @@
     
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-0)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="477.28 282.99"
+        stroke-linecap="butt" stroke-dasharray="476.74 283.52"
         stroke-dashoffset="-4.56" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-1)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="157.02 603.25"
-        stroke-dashoffset="-490.96" />
+        stroke-linecap="butt" stroke-dasharray="157.13 603.14"
+        stroke-dashoffset="-490.43" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-2)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="78.57 681.69"
-        stroke-dashoffset="-656.91" />
+        stroke-linecap="butt" stroke-dasharray="78.48 681.78"
+        stroke-dashoffset="-656.48" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-3)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="13.40 746.86"
-        stroke-dashoffset="-740.59" />
+        stroke-linecap="butt" stroke-dasharray="13.88 746.38"
+        stroke-dashoffset="-740.09" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-4)" stroke-width="34"
-        stroke-linecap="butt" stroke-dasharray="2.80 757.47"
-        stroke-dashoffset="-754.89" />
+        stroke-linecap="butt" stroke-dasharray="2.79 757.47"
+        stroke-dashoffset="-754.90" />
       <circle cx="250" cy="232" r="121" fill="none"
         stroke="url(#language-gradient-5)" stroke-width="34"
         stroke-linecap="butt" stroke-dasharray="2.18 758.09"
-        stroke-dashoffset="-757.96" />
+        stroke-dashoffset="-757.97" />
   </g>
   <circle cx="250" cy="232" r="97" fill="url(#center-fill)" stroke="#352544" stroke-width="1.5" />
   <circle cx="250" cy="232" r="53" fill="none" stroke="#a42f79" stroke-width="2" opacity=".52" class="orb" />
@@ -118,9 +118,9 @@
       <g class="language-row" style="animation-delay:0ms">
         <circle cx="451" cy="127" r="5" fill="#35d7e8" />
         <text x="466" y="131" class="language-name">Python</text>
-        <text x="715" y="131" class="language-percent" text-anchor="end">64.0%</text>
+        <text x="715" y="131" class="language-percent" text-anchor="end">63.9%</text>
         <rect x="466" y="140" width="226" height="4" rx="2" fill="#26213a" />
-        <rect x="466" y="140" width="144.6" height="4" rx="2" fill="#35d7e8" />
+        <rect x="466" y="140" width="144.4" height="4" rx="2" fill="#35d7e8" />
       </g>
       <g class="language-row" style="animation-delay:90ms">
         <circle cx="451" cy="176" r="5" fill="#7568ff" />
@@ -134,14 +134,14 @@
         <text x="466" y="229" class="language-name">HTML</text>
         <text x="715" y="229" class="language-percent" text-anchor="end">11.5%</text>
         <rect x="466" y="238" width="226" height="4" rx="2" fill="#26213a" />
-        <rect x="466" y="238" width="26.0" height="4" rx="2" fill="#ff7148" />
+        <rect x="466" y="238" width="25.9" height="4" rx="2" fill="#ff7148" />
       </g>
       <g class="language-row" style="animation-delay:270ms">
         <circle cx="451" cy="274" r="5" fill="#d266ff" />
         <text x="466" y="278" class="language-name">CSS</text>
         <text x="715" y="278" class="language-percent" text-anchor="end">2.0%</text>
         <rect x="466" y="287" width="226" height="4" rx="2" fill="#26213a" />
-        <rect x="466" y="287" width="4.4" height="4" rx="2" fill="#d266ff" />
+        <rect x="466" y="287" width="4.6" height="4" rx="2" fill="#d266ff" />
       </g>
       <g class="language-row" style="animation-delay:360ms">
         <circle cx="451" cy="323" r="5" fill="#ffd34e" />
